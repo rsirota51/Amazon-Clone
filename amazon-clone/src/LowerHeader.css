@@ -1,0 +1,22 @@
+.lowerheader {
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.lowerheader_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.lowerheader_link {
+    color: white;
+    text-decoration: none;
+}
+.lowerheader_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
