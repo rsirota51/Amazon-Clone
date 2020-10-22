@@ -9,7 +9,7 @@ img {
     background-color: #131921;
     display: flex;
     align-items: center;
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 100;
 }
