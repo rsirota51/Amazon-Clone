@@ -19,6 +19,7 @@ function Header() {
             </div>
             {/* Lang Flag */}
             {/* 3 Links */}
+            {/* Need to Put in Little Triangle Under the Links to Open Up More Opitions */}
             <div className="header_nav">
                 {/* 1st Link */}
                 <Link to="/login" className="header_link">
