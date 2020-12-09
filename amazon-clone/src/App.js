@@ -5,6 +5,7 @@ import Header from './Header';
 import Home from './Home';
 import LowerHeader from './LowerHeader';
 import Checkout from './Checkout';
+import Login from './Login';
 
 function App() {
     return (
@@ -17,7 +18,7 @@ function App() {
               <Checkout />
             </Route>
             <Route path="/login">
-              <h1>Login</h1>
+              <Login />
             </Route>
             <Route path="/"> {/*Default Route*/}
               <Home />
