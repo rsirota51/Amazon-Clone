@@ -1,15 +1,7 @@
 .login_logo{
-    background-position: -5px -130px;
-    background-position-x: -5px;
-    background-position-x: 130px;
-    background-repeat: no-repeat;
+    background-image: url("https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x-a3d92a134e6afaec4974bceac0812b73d0b635c1._V2_.png");
     background-size: 400px 750px;
-    box-sizing: border-box;
-    color: rgb(0, 102, 192);
-    display: inline-block;
-    height: 1000px;
-    width: 1000px;
-    vertical-align: top;
-    text-align: center;
-    background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x-a3d92a134e6afaec4974bceac0812b73d0b635c1._V2_.png);
+    background-position: -5px -130px;
+    width: 103px;
+    height: 31px;
 }
