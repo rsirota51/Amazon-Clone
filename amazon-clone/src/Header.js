@@ -13,8 +13,17 @@ function Header() {
             <Link to="/">
                 <img classname="logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""></img>
             </Link>
+            {/* Location */}
+            <div className="header_nav header_link">
+                <div className="header_location_i"></div>
+                <div className="header_option">
+                        <span className="header_option_lineone">Hello</span>
+                        <span className="header_option_linetwo">Select your address</span>
+                </div>
+            </div>
             {/* Search Box*/}
             <div className="header_search">
+                <div className="header_search_in">All</div>
                 <input type="text" className="header_searchbar"/>
                 <SearchIcon className="header_searchicon" />
             </div>
