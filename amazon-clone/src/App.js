@@ -6,6 +6,7 @@ import Home from './Home';
 import LowerHeader from './LowerHeader';
 import Checkout from './Checkout';
 import Login from './Login';
+import LoginPassword from './LoginPassword';
 
 function App() {
     return (
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login />
+            </Route>
+            <Route path="/loginpassword">
+              <LoginPassword />
             </Route>
             <Route path="/"> {/*Default Route*/}
               <Header/>
