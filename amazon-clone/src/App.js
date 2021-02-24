@@ -5,7 +5,7 @@ import Header from './Header';
 import Home from './Home';
 import LowerHeader from './LowerHeader';
 import Checkout from './Checkout';
-import Login from './Login';
+import LoginTemp from './LoginTemp';
 import LoginPassword from './LoginPassword';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
               <Checkout />
             </Route>
             <Route path="/login">
-              <Login />
+              <LoginTemp />
             </Route>
             <Route path="/loginpassword">
               <LoginPassword />
